@@ -1,0 +1,59 @@
+.secao__banner {
+    position: relative;
+    width: 940px;
+    height: 331px;
+    margin: 2em auto 0 auto;
+    background-color: black;
+    border-radius: 10px;
+    background-image: url("../img/Vector\ 1.svg");
+    background-repeat:no-repeat;
+    background-position: right top;
+    background-size: contain;
+    font-family: var(--body);
+    padding: 4em;
+    box-sizing: border-box;
+}
+
+/*Texto da seção banner*/
+.texto__banner {
+    width: 382px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--titulo-destaque);
+    color: var(--secundary-light);
+}
+
+span {
+    color: var(--secundary-normal);
+}
+
+.paragraf__banner {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--secundary-light);
+    line-height: 24px;
+    margin: 1em 0;
+}
+
+strong {
+    font-weight: 700;
+}
+
+/*botão da seção banner*/
+.botao__banner {
+    text-decoration: none;
+    color: var(--secundary-light);
+    background-color: var(--secundary-normal);
+    border-radius: 34px;
+    padding: 7px 35px;
+}
+
+/*Posicionamento foguete*/
+.banner__foguete {
+    position: absolute;
+    right: 25%;
+    bottom: 0;
+}

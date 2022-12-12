@@ -1,0 +1,21 @@
+@import url("css/nav.css");
+@import url("css/banner.css");
+@import url("css/secao_principal.css");
+
+:root {
+    --titulo-destaque: "Montserrat";
+    --body: "Inter";
+    --primary-light: #696C85;
+    --primary-normal: #0A071B;
+    --primary-dark: #07002D;
+    --secundary-light: #DCDAE5;
+    --secundary-normal: #5138EE;
+    --secundary-dark: #3420B6;
+    --body-background: #E5E5E5;
+}
+
+body {
+    background-color: var(--body-background);
+    font-family: var(--body);
+    font-size: 16px;
+}
