@@ -3,6 +3,7 @@
 @import url("css/secao_principal.css");
 @import url("css/posts.css");
 @import url("css/eventos.css");
+@import url("css/depoimentos.css");
 
 :root {
     --titulo-destaque: "Montserrat";

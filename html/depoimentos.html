@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../img/Vector.svg" type="image/svg">
     <link rel="stylesheet" href="../styles.css">
-    <title>DevBoost | Eventos</title>
+    <title>DevBoost | Depoimentos</title>
 </head>
 <body>
     <nav class="container__navegacao">
@@ -40,26 +40,21 @@
         </div>
     </nav>
 
-    <section id="eventos">
-        <div class="descricao">
-            <h1 class="eventos__titulo">Super evento sobre:<br> <span class="eventos__titulo eventos__titulo-enfase">Curiosidades no espaço</span></h1>
-            <p class="evento-descricao">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellat voluptatum placeat maiores fugit, 
-            numquam iusto maxime quis perferendis ullam explicabo id voluptatibus repellendus voluptates facere provident nostrum ex cumque!
-            Lorem ipsum dolor sit amet, 
-            consectetur adipisicing elit. 
-            Enim doloribus earum ad maxime alias vitae tempora quae ducimus quaerat placeat, 
-            repellat rem? Rerum officiis placeat deserunt illum iste maiores ex?
-            </p>
-        </div>
-        
-        <div class="imagem">
-            <img src="../img/evento-astronauta.avif" class="foto__evento" alt="Foto astronauta">
-        </div>
-        
-        <div class="cadastro__evento">
-            <input type="email" class="cadastro__email" placeholder="Digite o seu email">
-            <input type="submit" class="botao__submit" value="Enviar email">
+    <section id="formulario">
+        <div class="formulario">
+            <form>
+                <fieldset>
+                    <legend class="titulo__formulario">Deixei um comentário</legend>
+                    <label for="name">Nome</label><br>
+                    <input type="text" id="name" placeholder="Digite o seu nome"><br>
+
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" placeholder="Digite o seu email"><br>
+                    <label for="message">Comentário</label><br>
+                    <textarea id="message" cols="21" rows="5"></textarea><br>
+                    <button type="submit" class="botao__formulario">Enviar</button>
+                </fieldset>
+            </form>
         </div>
     </section>
 </body>
