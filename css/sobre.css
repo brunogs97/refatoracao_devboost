@@ -23,6 +23,7 @@
 
 .sobre__texto {
     width: 30vw;
+    margin-right: 2em;
 }
 
 .sobre__cadastro {
@@ -52,7 +53,7 @@
 }
 
 .botao__sobre {
-    width: 21.2vw;
+    width: 20.7vw;
     padding: 1em;
     border-radius: 8px;
     margin-top: .5em;
