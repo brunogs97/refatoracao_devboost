@@ -1,4 +1,5 @@
 .secao__sobre {
+    position: relative;
     width: 1080px;
     height: 70vh;
     margin: 3em auto 0 auto;
@@ -61,4 +62,17 @@
     font-size: 18px;
     font-weight: 700;
     border: none;
+}
+
+.fa-brands {
+    color: black;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80px;
+    height: 70px;
+    font-size: 4em;
+    background-color: green;
 }
