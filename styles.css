@@ -4,6 +4,7 @@
 @import url("css/posts.css");
 @import url("css/eventos.css");
 @import url("css/depoimentos.css");
+@import url("css/sobre.css");
 
 :root {
     --titulo-destaque: "Montserrat";

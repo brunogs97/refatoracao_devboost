@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/Vector.svg" type="image/svg">
+    <script src="https://kit.fontawesome.com/c5ed4752ba.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles.css">
+    <title>DevBoost | Sobre</title>
+</head>
+<body>
+    <nav class="container__navegacao">
+        <!--Barra de Nav lado esquerdo-->
+        <div class="navegacao__opcao1">
+            <a href="../index.html"><img src="../img/Logo - DevBoost.svg" class="logo" alt="Logo DevBoost"></a>
+            <ul class="lista__opcao1">
+                <li class="nav__lista"><a class="nav__link" href="posts.html">Posts</a></li>
+                <li class="nav__lista"><a class="nav__link" href="eventos.html">Eventos</a></li>
+                <li class="nav__lista"><a class="nav__link" href="depoimentos.html">Depoimentos</a></li>
+                <li class="nav__lista"><a class="nav__link" href="sobre.html">Sobre</a></li>
+            </ul>
+        </div>
+
+        <!--Barra de Nav lado direito-->
+        <div class="navegacao__opcao2">
+            <ul class="lista__opcao2">
+                <li class="lita__img"><img class="nav__img" src="../img/Icon - Pesquisa.svg" alt="Icone Pesquisa"></li>
+                <li class="lita__img"><img class="nav__img" src="../img/Icon - Grupo.svg" alt="Icone Grupo"></li>
+                <li class="lita__img"><img class="nav__img" src="../img/Icon - Notificação.svg" alt="Icone Notificação"></li>
+            </ul>
+
+            <!--Botão barra de navegação-->
+            <a href="#" class="nav__botao"><img src="../img/Group.svg">Criar</a>
+        </div>
+    </nav>
+
+    <section class="secao__sobre">
+        <h1 class="container__sobre-titulo">Sobre DevBoost</h1>
+        <div class="container__sobre">    
+            <div class="sobre__texto">
+                <p class="sobre__paragrafo">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Suscipit asperiores labore expedita debitis quod non, aperiam nesciunt facilis provident accusamus, 
+                    ducimus id veritatis magni iste rem ipsam. Eligendi, suscipit error.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Possimus molestiae commodi minima, modi ab ducimus placeat fuga enim labore ipsum eum, hic ipsam. 
+                    Eligendi officia ex, sunt a repudiandae nam?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Voluptatum atque alias temporibus numquam voluptates. 
+                    Obcaecati consectetur tenetur tempora doloribus, deleniti sunt ratione iste expedita alias assumenda nulla. Mollitia, culpa dolores.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Maiores sapiente beatae corporis. Autem rerum esse perferendis quidem voluptate consequuntur numquam vitae nulla, 
+                    odio voluptatum harum sed porro eveniet nesciunt aut.
+                </p>
+            </div>
+
+            <div class="sobre__cadastro">
+                <form>
+                    <fieldset>
+                        <legend class="titulo__cadastro">Inscreva-se em nossa comunidade</legend>
+                        <label for="name">Nome</label><br>
+                        <input type="text" id="name" required class="campo__formulario-sobre"><br>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" required class="campo__formulario-sobre"><br>
+                        <label for="cpf">CPF</label><br>
+                        <input type="number" id="cpf" maxlength="11" class="campo__formulario-sobre" placeholder="Ex.: 00000000000"><br>
+                        <label for="data-nasc">Data de Nascimentos</label><br>
+                        <input type="date" id="data-nasc" required class="campo__formulario-sobre"><br>
+                        <button type="submit" class="botao__sobre">Inscreva-se</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
