@@ -5,8 +5,7 @@
     margin: 3em auto 0 auto;
     background: linear-gradient(var(--primary-dark), var(--secundary-normal));
     padding: 3em;
-    border-radius: 8px;   
-    box-sizing: border-box;
+    border-radius: 8px;
 }
 
 .container__sobre-titulo {
